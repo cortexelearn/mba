@@ -1,7 +1,7 @@
 // Service Worker for CortexEdge — AI Mastery for Aerospace (standalone track)
 // Provides offline support after first visit
 
-const CACHE_NAME = 'cortexedge-mba-v2';
+const CACHE_NAME = 'cortexedge-mba-v3';
 const PRECACHE_URLS = [
   './',
   './index.html',
