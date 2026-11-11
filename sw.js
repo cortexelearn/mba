@@ -1,11 +1,11 @@
-// Service Worker for CortexEdge — AI Mastery for Aerospace (standalone track)
+// Service Worker for CortexEdge — MBA Professional Certificate (standalone track)
 // Provides offline support after first visit
 
 // Cache names are origin-wide (shared with the portal and sibling tracks on
 // cortexelearn.github.io), so this worker only ever manages caches that carry
 // its own prefix.
 const CACHE_PREFIX = 'cortexedge-mba-';
-const CACHE_NAME = CACHE_PREFIX + 'v5';
+const CACHE_NAME = CACHE_PREFIX + 'v6';
 const PRECACHE_URLS = [
   './',
   './index.html',
